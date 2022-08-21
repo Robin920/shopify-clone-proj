@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            mygreen: '#228B22',
+            darkgreen: '#006400',
+            mygrey: '#758283',
+            txtgreen: '#1FAA59'
+          }
+        }
+      }
+    }
+  </script>
+    <title>Shopify clone</title>
+</head>
+<body class="container">
+    <nav class="bg-[#FFDBAC] flex justify-between items-center px-8 py-2">
+        <div class="flex gap-x-3 justify-between items-center">
+            <img class="h-8" src="./assets/Shopify_logo_2018.svg" alt="shopify">
+            <div class="hidden md:flex gap-x-3 font-semibold text-mygrey hover:text-black text-lg">
+                <a href="#">Start ></a>
+                <a href="#">Sell ></a>
+                <a href="#">Market ></a>
+                <a href="#">Manage ></a>
+            </div>
+        </div>
+
+        <div class="flex gap-x-3 justify-between items-center">
+            <div class="flex gap-x-3 font-semibold text-mygrey hover:text-black text-lg">
+                <a class="hidden md:inline" href="#">Pricing</a>
+                <a class="hidden md:inline" href="#">Learn ></a>
+                <a class="inline" href="#">Log In</a>
+            </div>
+            <button type="button" class="hidden md:inline px-8 py-3 font-semibold rounded bg-mygreen text-white drop-shadow-md">Try for free</button>
+            <img class="h-6 inline md:hidden" src="./assets/icons8-menu.svg" alt="menu">
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row gap-x-3 justify-between items-center bg-[#FFDBAC] px-12 py-16">
+        <div class="flex flex-col gap-y-3 justify-center">
+            <h1 class="text-txtgreen text-5xl self-start font-bold">
+                The Easiest Way to sell<br>online in India
+            </h1>
+            <p class="text-mygrey text-xl">
+                Try one of the most powerful platforms on the market for free.
+                <br>No technical knowledge needed.
+            </p>
+            <div class="flex gap-x-2">
+                <input class="p-4 bg-white text-mygrey text-sm border-solid rounded border-2 border-mygrey" type="text" placeholder="Enter your email address">
+                <button type="button" class="px-8 py-3 font-semibold rounded bg-mygreen text-white drop-shadow-md">Try for free</button>
+            </div>
+            <p class="text-mygrey text-sm self-start">
+                Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails<br> from Shopify.
+            </p>
+        </div>
+
+        <div class="flex flex-col">
+            <img class="h-[25rem] w-[40rem]" src="./assets/Screenshot_2022-08-20_151915-removebg-preview.png" alt="">
+            <h2 class="text-xl text-center font-semibold text-txtgreen">Add Payments</h2>
+        </div>
+    </div>
+
+    <div class="bg-darkgreen flex flex-col  gap-x-3 justify-between items-center px-12 py-16">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex flex-col gap-y-4 text-5xl">
+                <h1 class="text-white text-bold">Bring your business online</h1>
+                <p class="text-white text-sm">
+                    Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.
+                </p>
+            </div>
+
+            <a class="text-white font-bold text-sm self-end md:ml-[28rem]" href="#">Explore more examples -></a>
+        </div>
+
+        <div class="flex flex-col md:flex-row md:gap-x-9 justify-between items-center">
+            <div class="flex flex-col gap-x-2 mt-[2rem]">
+                <img class="w-auto h-[20rem]" src="./assets/card1.png" alt="card1">
+                <div class="flex flex-col text-white">
+                    <h1 class="font-bold hover:underline hover:underline-offset-2 text-lg">Food & Drink</h1>
+                    <p class="font-semibold text-lg">Blue Tokai</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-x-2 mt-[2rem]">
+                <img class="w-auto h-[20rem]" src="./assets/card2.png" alt="card1">
+                <div class="flex flex-col text-white">
+                    <h1 class="font-bold hover:underline hover:underline-offset-2 text-lg">Jwelery</h1>
+                    <p class="font-semibold text-lg">Quirksmith</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-x-2 mt-[2rem]">
+                <img class="w-auto h-[20rem]" src="./assets/card3.png" alt="card1">
+                <div class="flex flex-col text-white">
+                    <h1 class="font-bold hover:underline hover:underline-offset-2 text-lg">Electronics</h1>
+                    <p class="font-semibold text-lg">Crossbeats</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-x-2 mt-[2rem]">
+                <img class="w-auto h-[20rem]" src="./assets/card4.png" alt="card1">
+                <div class="flex flex-col text-white">
+                    <h1 class="font-bold hover:underline hover:underline-offset-2 text-lg">Beauty</h1>
+                    <p class="font-semibold text-lg">Mcaffeine</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-x-2 mt-[2rem]">
+                <img class="w-auto h-[20rem]" src="./assets/card5.png" alt="card1">
+                <div class="flex flex-col text-white">
+                    <h1 class="font-bold hover:underline hover:underline-offset-2 text-lg">Fashion</h1>
+                    <p class="font-semibold text-lg">Bunaai</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="self-start mt-12 text-4xl font-bold text-white">Take the best path forward</h1>
+
+        <div class="flex flex-col md:flex-row md:gap-x-3 justify-between items-center py-12">
+            <div class="max-w-xs p-6">
+                <img src="./assets/icons8-browser-windows-64.png" alt="" class="object-cover object-start w-12 h-12">
+                <div class="mt-6 mb-2">
+                    <h2 class="text-xl text-white font-semibold tracking-wide">Start an online business</h2>
+                </div>
+                <p class="dark:text-gray-100">Create a business, whether you’ve got a fresh idea or are looking for a new way to make money.</p>
+            </div>
+
+            <div class="max-w-xs p-6">
+                <img src="./assets/icons8-shop-24.png" alt="" class="object-cover object-start w-12 h-12">
+                <div class="mt-6 mb-2">
+                    <h2 class="text-xl text-white font-semibold tracking-wide">Move your business online</h2>
+                </div>
+                <p class="dark:text-gray-100">Turn your retail store into an online store and keep serving customers without missing a beat.</p>
+            </div>
+
+            <div class="max-w-xs p-6">
+                <img src="./assets/icons8-recycle-64.png" alt="" class="object-cover object-start w-12 h-12">
+                <div class="mt-6 mb-2">
+                    <h2 class="text-xl text-white font-semibold tracking-wide">Switch to Shopify</h2>
+                </div>
+                <p class="dark:text-gray-100">Bring your business to Shopify, no matter which ecommerce platform you’re currently using.</p>
+            </div>
+
+            <div class="max-w-xs p-6">
+                <img src="./assets/icons8-family-two-men-32.png" alt="" class="object-cover object-start w-12 h-12">
+                <div class="mt-6 mb-2">
+                    <h2 class="text-xl text-white font-semibold tracking-wide">Hire a Shopify expert</h2>
+                </div>
+                <p class="dark:text-gray-100">
+                    Get set up with the help of a trusted freelancer or agency from the Shopify Experts Marketplace.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white flex flex-col  gap-x-3 justify-between items-center px-12 py-16">
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-5xl text-black font-bold mb-2">With you wherever you’re going</h1>
+            <p class="text-xl text-mygrey font-semibold">One platform with all the ecommerce and point of sale features you need to start, run, and grow your business.</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-between items-center mt-[2.5rem]">
+            <img class="h-[25rem]" src="./assets/table.png" alt="table">
+            <div class="flex flex-col md:ml-[4rem] mt-[2rem] md:mt-0 justify-start">
+                <h1 class="text-4xl text-black font-semibold mb-2">Sell everywhere</h1>
+                <p class="text-xl text-mygrey font-semibold">Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.</p>
+                <p class="text-txtgreen text-lg font-semibold">Explore ways to sell -></p>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-between items-center mt-[2.5rem]">
+            <div class="flex flex-col md:mr-[4rem] mt-[2rem] md:mt-0 justify-start">
+                <h1 class="text-4xl text-black font-semibold mb-2">Market your business</h1>
+                <p class="text-xl text-mygrey font-semibold">Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.</p>
+                <p class="text-txtgreen text-lg font-semibold">Explore how to market your business  -></p>
+            </div>
+            <img class="h-[25rem]" src="./assets/shoes.png" alt="table">
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-between items-center mt-[2.5rem]">
+            <img class="h-[25rem]" src="./assets/chart.png" alt="table">
+            <div class="flex flex-col md:ml-[4rem] mt-[2rem] md:mt-0 justify-start">
+                <h1 class="text-4xl text-black font-semibold mb-2">Sell everywhere</h1>
+                <p class="text-xl text-mygrey font-semibold">Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.</p>
+                <p class="text-txtgreen text-lg font-semibold">Explore ways to sell -></p>
+            </div>
+        </div>
+
+        <img class="w-full h-9/12" src="./assets/testimonial.png" alt="testimonial">
+
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-4xl text-black font-semibold mb-2">Start your business journey with Shopify</h1>
+            <p class="text-xl text-mygrey font-semibold">
+                Try Shopify for free, and explore all the tools and services you need to start, run, and grow your business.
+            </p>
+            <button type="button" class="hidden md:inline px-8 py-3 font-semibold rounded bg-mygreen text-white drop-shadow-md">Start free trial</button>
+        </div>
+    </div>
+
+    <footer class="flex flex-col px-[3rem] py-4 bg-darkgreen">
+        <div class="flex gap-x-[2rem] mb-2">
+            <p class="text-white font-bold text-left">About</p>
+            <p class="text-white font-bold text-left">Careers</p>
+            <p class="text-white font-bold text-left">Press & Media</p>
+            <p class="text-white font-bold text-left">Shopify plus</p>
+            <p class="text-white font-bold text-left">Sitemap</p>
+        </div>
+        <hr>
+
+        <div class="hidden md:flex flex-row justify-between py-4">
+            <div class="flex flex-col gap-1">
+                <p class="font-semibold text-white text-lg">ONLINE STORE</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+            </div>
+
+            <div class="flex flex-col gap-1">
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+            </div>
+
+            <div class="flex flex-col gap-1">
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+            </div>
+
+            <div class="flex flex-col gap-1">
+                <p class="font-semibold text-white text-lg">POINT OF SALE</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+            </div>
+
+            <div class="flex flex-col gap-1">
+                <p class="font-semibold text-white text-lg">SUPPORT</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+            </div>
+
+            <div class="flex flex-col gap-1">
+                <p class="font-semibold text-white text-lg">SUPPORT</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+                <p class="font-medium text-mygrey text-base">Sell Online</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="flex justify-between py-4 items-center">
+            <img src="./assets/socials.png" alt="">
+            <div class="hidden md:flex gap-x-2">
+                <p class="font-medium text-mygrey text-base">Terms of services</p>
+                <p class="font-medium text-mygrey text-base">Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
